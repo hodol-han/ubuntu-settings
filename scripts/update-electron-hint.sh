@@ -34,7 +34,7 @@ validate_file() {
 
 set -euo pipefail
 
-TARGET_FILE="${1:-.profile}"
+TARGET_FILE="${1:-$HOME/.profile}"
 VALUE="${2:-x11}"
 
 test ! -z "$TARGET_FILE" || {
