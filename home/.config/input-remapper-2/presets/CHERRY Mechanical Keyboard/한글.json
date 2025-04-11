@@ -1,0 +1,28 @@
+[
+    {
+        "input_combination": [
+            {
+                "type": 1,
+                "code": 100,
+                "origin_hash": "1052be634ebd01df492c2ffd68386d1e"
+            }
+        ],
+        "target_uinput": "keyboard",
+        "output_symbol": "Hangul",
+        "name": "Alt R",
+        "mapping_type": "key_macro"
+    },
+    {
+        "input_combination": [
+            {
+                "type": 1,
+                "code": 97,
+                "origin_hash": "1052be634ebd01df492c2ffd68386d1e"
+            }
+        ],
+        "target_uinput": "keyboard",
+        "output_symbol": "Hangul_Hanja",
+        "name": "Control R",
+        "mapping_type": "key_macro"
+    }
+]
